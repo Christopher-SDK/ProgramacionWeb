@@ -20,4 +20,10 @@ public class Student {
 		this.firstName = firstName;
 	}
 
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName + "]";
+	}
+
+	
 }
